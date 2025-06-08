@@ -32,7 +32,8 @@ export function GroupFieldsLabel(props: GroupFieldsLabelProps) {
           animate={animationState}
           variants={variants.icon}
         >
-          <Icon strokeWidth={2} name="chevron-right" />
+          <Icon strokeWidth={2} name="chevron-left" color="blue" />
+
         </motion.div>
 
         {label}
